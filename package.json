@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Aiwe30/natours/issues"
   },
-  "homepage": "https://github.com/Aiwe30/natours#readme"
+  "homepage": "https://github.com/Aiwe30/natours#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
 }
