@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "Landing page for natours",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aiwe30/natours.git"
+  },
+  "author": "Aivaras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aiwe30/natours/issues"
+  },
+  "homepage": "https://github.com/Aiwe30/natours#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
