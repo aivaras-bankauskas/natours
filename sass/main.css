@@ -186,7 +186,6 @@ body {
   clear: both;
 }
 .row [class^=col-] {
-  background-color: orange;
   float: left;
 }
 .row [class^=col-]:not(:last-child) {
