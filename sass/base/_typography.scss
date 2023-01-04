@@ -30,15 +30,15 @@ body {
   }
 }
 .heading-secondary {
-  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
   display: inline-block;
   font-size: 3.5rem;
   text-transform: uppercase;
   font-weight: 700;
-  background-clip: text;
-  color: transparent;
   letter-spacing: .2rem;
+  color: transparent;
   transition: all .2s;
+  background-clip: text;
+  background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
   &:hover {
     transform: skewY(-4deg) skewX(15deg) scale(1.1);
     text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
