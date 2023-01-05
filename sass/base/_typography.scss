@@ -39,10 +39,10 @@ body {
   transition: all .2s;
   background-clip: text;
   background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
-  &:hover {
-    transform: skewY(-4deg) skewX(15deg) scale(1.1);
-    text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
-  }
+  // &:hover {
+  //   transform: skewY(-4deg) skewX(15deg) scale(1.1);
+  //   text-shadow: .5rem 1rem 2rem rgba($color-black, .2);
+  // }
 }
 .heading-tertiary {
   font-size: $default-font-size;
