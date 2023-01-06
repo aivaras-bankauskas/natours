@@ -114,4 +114,43 @@
     font-size: 6rem;
     font-weight: 300;
   }
+
+  // Responsive design for mobile
+  @include respond(tab-port) {
+    background-color: $color-white;
+    height: auto;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+    &__side {
+      height: auto;
+      position: relative;
+      box-shadow: none;
+      &--back {
+        transform: rotateY(0deg);
+        clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+        border-radius: 0 0 3px 3px;
+      }
+    }
+    &:hover &__side--front {
+      transform: rotateY(0deg);
+    }
+    // Back side styling
+    &__cta {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 7rem 4rem;
+      text-align: center;
+      transform: translate(0);
+    }
+    &__price-box {
+      margin-bottom: 3rem;
+    }
+    &__price-value {
+      font-size: 6rem;
+      font-weight: 300;
+    }
+
+  }
 }
