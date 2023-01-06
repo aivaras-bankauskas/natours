@@ -66,16 +66,13 @@
     border-radius: 50%;
     &::after {
       content: "";
+      @include absCenter;
       background-color: $color-primary;
-      position: absolute;
-      top: 50%;
-      left: 50%;
       display: block;
       height: 1.2rem;
       width: 1.2rem;
       border-radius: 50%;
       opacity: 0;
-      transform: translate(-50%, -50%);
       transition: all .2s;
     }
   }
