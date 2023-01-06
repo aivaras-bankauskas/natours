@@ -37,13 +37,10 @@
     transition: all .8s;
   }
   &__list {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    @include absCenter;
     width: 100%;
     text-align: center;
     list-style: none;
-    transform: translate(-50%, -50%);
   }
   &__item {
     margin: 2rem;
