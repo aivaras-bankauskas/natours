@@ -20,6 +20,9 @@
       color: $color-grey-dark-2;
       opacity:  1;
     }
+    @include respond(phone) {
+      width: 100%;
+    } 
     &:focus {
       outline: none;
       border-bottom: 2px solid $color-primary;
@@ -45,6 +48,10 @@
   &__radio-group {
     display: inline-block;
     width: 49%;
+    @include respond(tab-port) {
+      width: 100%;
+      margin-bottom: 3rem;
+    }
   }
   &__radio-input {
     display: none;
